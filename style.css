@@ -105,7 +105,7 @@ body {
     cursor: pointer;
     user-select: none;
     background: rgba(255, 255, 255, 0.8);
-    border-radius: 50%;
+    border-radius: 100%;
     padding: 8px 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     transition: background 0.3s;
@@ -115,16 +115,25 @@ body {
     background: rgba(255, 255, 255, 1);
 }
 
+.left:hover{
+    color:#000;
+}
+.right:hover{
+    color:#000;
+}
 .left {
+    color: #fff;
     left: 10px;
     background-color: gray;
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
 }
 
 .right {
+    color: #fff;
+
     background-color: gray;
     right: 10px;
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
 }
 
 @media (max-width: 1200px) {
