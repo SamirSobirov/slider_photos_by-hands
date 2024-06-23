@@ -2,90 +2,106 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video Slider</title>
-    <link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Video Slider</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="slider-arrow left" onclick="scrollSlider(-1)">&#10094;</div>
+	<div class="slider-arrow left" onclick="scrollSlider(-1)">&#10094;</div>
 
-    <div class="slider">
-        <div class="slides">
-            <div class="slide">
-                <div class="video-container">
-                    <p class="title_p">Влад из Санкт-Петербурга<br>Обзор апартов Velvet</p>
+	<div class="slider">
+		<div class="slides">
+			<div class="slide">
+				<div class="video-container">
+					<div class="title">
+						<p class="title_p">Влад из Санкт-Петербурга</p>
+						<p class="title_p2"><b>Обзор апартов Velvet</b></p>
+					</div>
 
-                    <video class="video-preview" src="preview.mp4" muted loop></video>
-                    <video class="video-full" src="video.mp4" controls></video>
-                    <button class="play-button" onclick="playVideo(this)">▶</button>
-                </div>
-            </div>
-            <div class="slide">
-                <div class="video-container">
-                    <video class="video-preview" src="preview.mp4" muted loop></video>
-                    <video class="video-full" src="video2.mp4" controls></video>
-                    <button class="play-button" onclick="playVideo(this)">▶</button>
-                </div>
-                <p>Амелия из Якутска<br>Обзор коллекции кистей</p>
-            </div>
-            <div class="slide">
-                <div class="video-container">
-                    <video class="video-preview" src="preview.mp4" muted loop></video>
-                    <video class="video-full" src="video.mp4" controls></video>
-                    <button class="play-button" onclick="playVideo(this)">▶</button>
-                </div>
-                <p>Анна из Москвы<br>Отзыв на кулинарный мастер-класс</p>
-            </div>
-            <div class="slide">
-                <div class="video-container">
-                    <video class="video-preview" src="preview.mp4" muted loop></video>
-                    <video class="video-full" src="video.mp4" controls></video>
-                    <button class="play-button" onclick="playVideo(this)">▶</button>
-                </div>
-                <p>Мария из Красноярска<br>Обзор Clay Mask</p>
-            </div>
-            <div class="slide">
-                <div class="video-container">
-                    <video class="video-preview" src="preview.mp4" muted loop></video>
-                    <video class="video-full" src="video.mp4" controls></video>
-                    <button class="play-button" onclick="playVideo(this)">▶</button>
-                </div>
-                <p>Полина из Новосибирска<br>Распаковка</p>
-            </div>
-            <div class="slide">
-                <div class="video-container">
-                    <video class="video-preview" src="preview.mp4" muted loop></video>
-                    <video class="video-full" src="video.mp4" controls></video>
-                    <button class="play-button" onclick="playVideo(this)">▶</button>
-                </div>
-                <p>Полина из Новосибирска<br>Распаковка</p>
-            </div>
-            <div class="slide">
-                <div class="video-container">
-                    <video class="video-preview" src="preview.mp4" muted loop></video>
-                    <video class="video-full" src="video.mp4" controls></video>
-                    <button class="play-button" onclick="playVideo(this)">▶</button>
-                </div>
-                <p>Полина из Новосибирска<br>Распаковка</p>
-            </div>
-            <div class="slide">
-                <div class="video-container">
-                    <video class="video-preview" src="preview.mp4" muted loop>
-                    </video>
-                    <video class="video-full" src="video.mp4" controls></video>
-                    <button class="play-button" onclick="playVideo(this)">▶</button>
-                </div>
-                <p>Полина из Новосибирска<br>Распаковка</p>
+					<video class="video-preview" src="preview.mp4" muted loop></video>
+					<video class="video-full" src="video.mp4" controls></video>
+					<button class="play-button" onclick="playVideo(this)">▶</button>
+				</div>
+			</div>
+			<div class="slide">
+				<div class="video-container">
+					<video class="video-preview" src="preview.mp4" muted loop></video>
+					<video class="video-full" src="video2.mp4" controls></video>
+					<button class="play-button" onclick="playVideo(this)">▶</button>
+				</div>
 
-            </div>
+				<div class="title">
+					<p class="title_p">Амелия из Якутска</p>
+					<p class="title_p2"><b>Обзор коллекции кистей</b></p>
+				</div>
 
-        </div>
-    </div>
-    <div class="slider-arrow right" onclick="scrollSlider(1)">&#10095;</div>
+			</div>
+			<div class="slide">
+				<div class="video-container">
+					<video class="video-preview" src="preview.mp4" muted loop></video>
+					<video class="video-full" src="video.mp4" controls></video>
+					<button class="play-button" onclick="playVideo(this)">▶</button>
+				</div>
 
-    <script src="script.js"></script>
+				<div class="title">
+				<p class="title_p">Анна из Москвы</p>
+				<p class="title_p2"><b>Отзыв на кулинарный мастер</b></p>
+			</div>
+			</div>
+			<div class="slide">
+				<div class="video-container">
+					<video class="video-preview" src="preview.mp4" muted loop></video>
+					<video class="video-full" src="video.mp4" controls></video>
+					<button class="play-button" onclick="playVideo(this)">▶</button>
+				</div>
+				<div class="title">
+					<p class="title_p">Мария из Красноярска</p>
+					<p class="title_p2"><b>Обзор Clay Mask</b></p>
+			
+				</div>
+			</div>
+			<div class="slide">
+				<div class="video-container">
+					<video class="video-preview" src="preview.mp4" muted loop></video>
+					<video class="video-full" src="video.mp4" controls></video>
+					<button class="play-button" onclick="playVideo(this)">▶</button>
+				</div>
+				<p>Полина из Новосибирска<br>Распаковка</p>
+			</div>
+			<div class="slide">
+				<div class="video-container">
+					<video class="video-preview" src="preview.mp4" muted loop></video>
+					<video class="video-full" src="video.mp4" controls></video>
+					<button class="play-button" onclick="playVideo(this)">▶</button>
+				</div>
+				<p>Полина из Новосибирска<br>Распаковка</p>
+			</div>
+			<div class="slide">
+				<div class="video-container">
+					<video class="video-preview" src="preview.mp4" muted loop></video>
+					<video class="video-full" src="video.mp4" controls></video>
+					<button class="play-button" onclick="playVideo(this)">▶</button>
+				</div>
+				<p>Полина из Новосибирска<br>Распаковка</p>
+			</div>
+			<div class="slide">
+				<div class="video-container">
+					<video class="video-preview" src="preview.mp4" muted loop>
+					</video>
+					<video class="video-full" src="video.mp4" controls></video>
+					<button class="play-button" onclick="playVideo(this)">▶</button>
+				</div>
+				<p>Полина из Новосибирска<br>Распаковка</p>
+
+			</div>
+
+		</div>
+	</div>
+	<div class="slider-arrow right" onclick="scrollSlider(1)">&#10095;</div>
+
+	<script src="script.js"></script>
 </body>
 
 </html>

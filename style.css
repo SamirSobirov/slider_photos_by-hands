@@ -154,5 +154,29 @@ body {
     }
 }
 .title_p{
-    z-index: 9999;
+    position: absolute;
+    top: -5px; 
+    left: 10px; 
+    z-index: 2; 
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
 }
+
+.title {
+    display: flex;
+}
+
+.title_p2{
+    white-space: nowrap;
+    position: absolute;
+    top: 14px; 
+    left: 10px; 
+    z-index: 2; 
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
