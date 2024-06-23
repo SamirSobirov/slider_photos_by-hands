@@ -38,6 +38,7 @@ function scrollSlider(direction) {
     }
 }
 
+
 function playVideo(button) {
     const slide = button.closest('.slide');
     const fullVideo = slide.querySelector('.video-full');
