@@ -30,11 +30,11 @@ function scrollSlider(direction) {
         slidesContainer.style.transform = `translateX(${-slideWidth}px)`;
         setTimeout(() => {
             slidesContainer.style.transition = 'transform 0.3s ease';
-            slidesContainer.style.transform = `translateX(${-slideWidth - 20}px)`;
+            slidesContainer.style.transform = `translateX(${-slideWidth - 1}px)`;
             currentIndex = 0;
         }, 0);
     } else {
-        slidesContainer.style.transform = `translateX(${-currentIndex * (slideWidth + 20)}px)`;
+        slidesContainer.style.transform = `translateX(${-currentIndex * (slideWidth + 1)}px)`;
     }
 }
 
